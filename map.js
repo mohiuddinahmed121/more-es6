@@ -11,4 +11,9 @@ for (const number of numbers) {
     const result = doubleIt(number);
     output.push(result);
 }
+//console.log(output);
+
+const output = numbers.map(doubleIt);
+const output = numbers.map(number => number * 2);
+
 console.log(output);
