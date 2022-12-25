@@ -13,7 +13,10 @@ for (const number of numbers) {
 }
 //console.log(output);
 
-const output = numbers.map(doubleIt);
-const output = numbers.map(number => number * 2);
+// const output = numbers.map(doubleIt);
+// const output = numbers.map(number => number * 2);
 
-console.log(output);
+//console.log(output);
+
+const squares = numbers.map(x => x * x);
+console.log(squares);
